@@ -29,6 +29,7 @@ public class Fruit : MonoBehaviour {
             scoreManager.AddScore();
             Destroy(slicedFruit, 3f);
             Destroy(gameObject);
+
         }
     }
 
