@@ -9,6 +9,7 @@ public class Fruit : MonoBehaviour {
     private ScoreManager scoreManager;
 
     Rigidbody2D rb;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

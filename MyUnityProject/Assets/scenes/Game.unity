@@ -558,7 +558,6 @@ GameObject:
   - component: {fileID: 1466149274}
   - component: {fileID: 1466149276}
   - component: {fileID: 1466149277}
-  - component: {fileID: 1466149278}
   m_Layer: 0
   m_Name: blade
   m_TagString: blade
@@ -628,17 +627,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1466149278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1466149273}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 552573e38732c504ca3f132db74eb95e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1536744527
 GameObject:
   m_ObjectHideFlags: 0
