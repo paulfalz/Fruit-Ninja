@@ -13,6 +13,7 @@ public class Fruit : MonoBehaviour {
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        scoreManager = FindObjectOfType<ScoreManager>();
         rb.AddForce(transform.up * startForce, ForceMode2D.Impulse);
     }
 
@@ -43,7 +44,7 @@ public class Fruit : MonoBehaviour {
     {
         if (GameManager.IsPlaying)
         {
-            Stop();
+            Stop(); 
         }
     }
 

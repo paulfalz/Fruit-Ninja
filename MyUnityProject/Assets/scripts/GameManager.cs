@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         //give play control over actions
-        IsPlaying = true;
+        IsPlaying = true;   
         //game has started 
         GameHasStarted = true;
         FindObjectOfType<blade>().StartCutting();
@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
 
         // stop the play mode
         IsPlaying = false;
+        Time.timeScale = 0;
 
     }
 
